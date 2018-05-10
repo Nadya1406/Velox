@@ -1,0 +1,588 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?ywthyg");
+  src: url("../fonts/icomoon.eot?ywthyg#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ywthyg") format("truetype"), url("../fonts/icomoon.woff?ywthyg") format("woff"), url("../fonts/icomoon.svg?ywthyg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url("../fonts/nexa-light-webfont.ttf");
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\f002";
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+
+.icon-mobile:before {
+  content: "\f10b";
+}
+
+.icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+.icon-trash:before {
+  content: "\f1f8";
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+body a:hover, body a:active, body a:focus, body a:visited {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.top_header {
+  font-size: 14px;
+}
+
+.contacs a {
+  float: left;
+  padding-top: 16px;
+}
+
+.header_content .logo, .menu, .menu ul, .row_menu {
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.menu {
+  margin-left: 138px;
+}
+
+.row_menu ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.social ul li {
+  float: left;
+  padding-right: 15px;
+}
+
+.phone {
+  padding-left: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+.phone::before {
+  content: "\f10b";
+  font-family: "icomoon";
+  padding-right: 10px;
+}
+
+.email {
+  padding-left: 22px;
+  font-family: "Roboto", sans-serif;
+}
+
+.email::before {
+  content: "\f003";
+  font-family: "icomoon";
+  padding-right: 10px;
+}
+
+.facebook {
+  font-family: "Roboto", sans-serif;
+}
+
+.facebook::before {
+  content: "\f09a";
+  font-family: "icomoon";
+}
+
+.twitter {
+  font-family: "Roboto", sans-serif;
+}
+
+.twitter::before {
+  content: "\f099";
+  font-family: "icomoon";
+}
+
+.google {
+  font-family: "Roboto", sans-serif;
+}
+
+.google::before {
+  content: "\f0d5";
+  font-family: "icomoon";
+}
+
+.trash {
+  font-family: "Roboto", sans-serif;
+}
+
+.trash::before {
+  content: "\f1f8";
+  font-family: "icomoon";
+}
+
+.search {
+  font-family: "Roboto", sans-serif;
+}
+
+.search::before {
+  content: "\f002";
+  font-family: "icomoon";
+}
+
+/* block service*/
+.service {
+  padding-top: 75px;
+  padding-bottom: 95px;
+}
+
+.service h3 {
+  text-align: center;
+}
+
+.service .first_row {
+  text-align: center;
+}
+
+.service .text {
+  text-align: justify;
+  width: 220px;
+  margin: auto;
+  color: #d3d3d3;
+}
+
+.icon {
+  border: 1px solid #1275b9;
+  border-radius: 50px;
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.mobile {
+  color: #1275b9;
+  font-size: 30px;
+}
+
+.ic_set,
+.ic_tach {
+  color: #fff;
+  background-color: #1275b9;
+  font-size: 24px;
+}
+
+/*choose_us*/
+.choose_us {
+  background: url(../img/sloi.png) center bottom no-repeat, #f9f9f9;
+  height: 576px;
+  padding-top: 72px;
+}
+
+.choose_us {
+  text-align: center;
+}
+
+.choose_us .text {
+  width: 635px;
+  margin: auto;
+  text-align: justify;
+  font-size: 13px;
+  color: gray;
+}
+
+.portfolio {
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+.portfolio h2 {
+  text-align: center;
+}
+
+.portfolio .text {
+  margin: auto;
+  text-align: justify;
+  width: 219px;
+  color: #808b93;
+  margin-bottom: 83px;
+}
+
+.portfolio .first {
+  margin-bottom: 91px;
+}
+
+.portfolio .row .images {
+  border: 1px solid #eaeaea;
+  margin-right: 70px;
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 320px;
+}
+
+.portfolio .row .images img {
+  width: 100%;
+}
+
+.portfolio .row .images h3 {
+  text-align: center;
+}
+
+.portfolio .row .images .name {
+  text-align: center;
+  color: #c6c7c9;
+}
+
+/*blog*/
+.blog {
+  padding-top: 62px;
+  padding-bottom: 62px;
+  background: #f9f9f9;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog .text2 {
+  color: #9c9c9c;
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.blog .text {
+  text-align: left;
+  color: #9c9c9c;
+}
+
+.blog button {
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #1275b9;
+  font-size: 10px;
+  margin-top: 26px;
+}
+
+.first_post, .second_post, .thirthy_post {
+  width: 320px;
+  height: 225px;
+}
+
+.first_post {
+  background: #1275b9;
+  color: #fff;
+  text-align: left;
+  padding-left: 27px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.first_post span {
+  display: block;
+  font-size: 36px;
+  letter-spacing: 2px;
+  padding-top: 41px;
+  padding-bottom: 23px;
+}
+
+.nav_gal {
+  z-index: 500;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.second_post {
+  position: relative;
+}
+
+.left_arrow, .right_arrow {
+  border: 2px solid #fff;
+  margin-right: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.left_arrow i {
+  padding: 5px;
+}
+
+.right_arrow i {
+  padding: 5px;
+}
+
+.text3 {
+  width: 320px;
+  color: #9c9c9c;
+  line-height: 2;
+}
+
+/*brend*/
+.brend {
+  height: 205px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.brend img {
+  margin: auto;
+  display: block;
+}
+
+/*items_btn*/
+.items_btn {
+  background: #fafafa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.items_btn a {
+  background: #1275b9;
+  color: #fff !important;
+  padding: 15px 30px;
+  font-size: 12px;
+  margin-left: 375px;
+}
+
+.banner {
+  display: flex;
+}
+
+.text {
+  margin-left: 86px;
+  width: 490px;
+  color: #9c9c9c;
+}
+
+.descr {
+  margin-left: 0;
+}
+
+/*footer*/
+footer {
+  background: #262626;
+}
+
+footer h2 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 27px;
+  font-family: Nexa Light;
+}
+
+footer .text {
+  color: #5e5e5e;
+  width: 215px;
+  line-height: 2;
+}
+
+footer h4 {
+  color: #fff;
+}
+
+footer .post div {
+  color: #a5a5a5;
+}
+
+footer .post span {
+  color: #3d3d3d;
+  line-height: 2;
+  display: block;
+}
+
+footer .feeds {
+  font-family: "Roboto", sans-serif;
+}
+
+footer .feeds .bef {
+  color: #686868;
+}
+
+footer .feeds .bef::before {
+  content: "\f099";
+  font-family: "icomoon";
+  position: absolute;
+}
+
+footer .feeds .bef div {
+  margin-left: 20px;
+}
+
+footer .feeds span {
+  color: #4d6f86;
+  margin-right: 3px;
+}
+
+footer .feeds .time {
+  color: #263342;
+  display: block;
+}
+
+/*contact*/
+.address {
+  color: #a5a5a5;
+  font-family: "Roboto", sans-serif;
+}
+
+.address::before {
+  content: "\f041";
+  font-family: "icomoon";
+  margin-right: 5px;
+}
+
+.contact a {
+  color: #a5a5a5;
+  display: block;
+  line-height: 2.5;
+}
+
+.contact i {
+  margin-right: 8px;
+}
+
+.autor {
+  position: relative;
+  background: #1e1e1e;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.autor div {
+  color: #9e9e9e;
+  margin-left: 25px;
+}
+
+.top {
+  width: 100px;
+  position: absolute;
+  right: 225px;
+  bottom: 23px;
+}
+
+.top span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.top span::before {
+  font-weight: bolder;
+}
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
